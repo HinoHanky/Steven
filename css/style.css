@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	
+	position: absolute;
+	width:  100%;
+	z-index: 2000;
+}
+.about-img img{
+	width: 90%;
+	margin-right: 5%;
+	border-radius: 1rem;
+
+	
+}
+.banner
+{
+	height: 100vh;
+	background: url( "../images/banner.png");
+	background-size: 1520px; 
+	background-repeat: no-repeat;
+	background-position:  top center;
+	
+}
+.banners
+{
+	height: 100vh;
+	background: url( "../images/bg.png");
+	background-size: 1520px; 
+	background-repeat: no-repeat;
+	background-position:  top center;
+	
+}
+
+.bannera
+{
+	height: 100vh;
+	
+	background: url( "../images/wp2682174.jpg");
+	background-size:100%; 
+	background-repeat: no-repeat;
+	background-position:  top center;
+	
+}
+
+.banneri
+{
+	height: 100%;
+	width: 100%;
+	
+	background: url(  "../images/steven_universe-6.png");
+	background-size:100%; 
+	background-repeat: no-repeat;
+	background-position:  top center;
+	
+}
+.banner-text
+{
+	align-items: center;
+	margin: 45px 45px;
+}
+
+
+section{
+	padding: 75px 0;
+}
+
+.logo a{
+	
+	font-size: 1.5rem;
+	color:#406066;
+	text-decoration: none;
+	font-weight: bold;
+}
+.logo img{
+	width:  198px;
+	margin: 0px 0px 8px 0px;
+}
+.menu{
+	
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0 5px 0;
+}
+
+.menu a{
+	color:#244C4E
+		;
+	text-decoration: none;
+	margin: 0  2.5rem 10px;
+	
+}
+
+
+.phone{
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.card
+{
+	background: #FFFFFF;
+	padding: 40px 32px;
+	border-radius: 20px;
+	box-shadow:
+  9.5px 17.7px 5.3px rgba(0, 0, 0, 0.012),
+  8.2px 15.4px 17.9px rgba(0, 0, 0, 0.018),
+  53px 99px 80px rgba(0, 0, 0, 0.03);
+	margin: 10px;
+}
+.icon{
+	background:url("../images/aaa.png") no-repeat;
+	background-size: 100%;
+	width: 295px; 
+	height: 120px;
+	border-radius: 8px;
+		
+}
+.icons{
+	background:url(../images/tv-show-steven-universe-garnet-steven-universe-wallpaper-preview.jpg) no-repeat;
+	background-size: 100%;
+	width: 295px; 
+	height: 120px;
+	border-radius: 8px;
+		
+}
+.icona{
+	background:url( "../images/Steven-Universe-playing-guitar.jpg") no-repeat;
+	background-size: 100%;
+	width: 295px; 
+	height: 120px;
+	border-radius: 8px;
+		
+}
+.iconn{
+	background:url( "../images/aaaa.jpg") no-repeat;
+	background-size: 100%;
+	width: 295px; 
+	height: 120px;
+	border-radius: 8px;
+		
+}
+.iconnn{
+	background:url( "../images/Steven_Universe_Season_3_Episode_82_Still.0.0.jpg") no-repeat;
+	background-size: 100%;
+	width: 295px; 
+	height: 120px;
+	border-radius: 8px;
+		
+}
+
+.iconnnn{
+	background:url( "../images/tumblr_inline_oz947gHnuy1s9logd_540.png") no-repeat;
+	background-size: 100%;
+	width: 295px; 
+	height: 120px;
+	border-radius: 8px;
+		
+}
+/*gem*/
+
+.icon ion-icon{
+	filter: drop-shadow(1px 1px 1px black)
+}
+
+.card h2{
+	padding: 48px 0px 32px;
+}
+
+	
+
+.about{
+	padding: 75px 0;
+}
+
+.card img
+{
+	border-radius: 10px;
+}
+.review
+{
+	text-align: center;
+}
+.review-logo img
+{
+	width: 100%;
+}
+.rating
+{
+	color: #F6AE06;
+}
+footer
+{
+	padding: 150px 0;
+}
+.list-menu
+{
+	display: flex;
+	flex-direction: column;
+}
+.list-menu a
+{
+	color: #5C6D90;
+	text-decoration: none;
+}
+.your-digital
+{
+	background:url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-size: 170%;
+	
+}
+.footer{
+	margin: 5px 90px 0px 90px;
+	
+}
+
+@font-face 
+{
+	font-family: thinh;
+	src:url("../font/Bungee-Regular.ttf");
+}
+
+
+@media screen and (max-width:415px)
+{
+	.menu{
+/*		display: none;*/
+/*		display: block*/
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		height: 0;
+		background:rgba(24,25,33,0.78) ;
+
+		left: 0;
+		top: 0;
+		overflow: hidden;
+		transition: all 1s;
+		z-index: 2000;
+	}
+	
+	.menu a{
+		color: white;
+		margin: 24px 0;
+		font-size: 24px !important;
+	}
+	.nav-mobile{
+		display: block!important;
+		cursor: pointer;
+	}
+	.close{
+		display: block;
+		position: absolute;
+		z-index: 1999;
+		color: white;
+		font-size: 32px;
+		top: 50px;
+		right: 50px;
+		cursor: pointer;
+	}
+	.banner-text h1
+{
+  
+	font-size: 1.5rem;
+	align-items: center;
+	margin: 45px 45px;
+	
+}
+	.banner-btn{
+		display: flex;
+	}
+	.banner-img img{
+		overflow: hidden !important;
+	}
+	.card img {
+		width: 100%;
+		height: 100%;
+	}
+	
+}
